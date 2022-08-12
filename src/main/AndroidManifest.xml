@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="shivani_shruti.mycompany.hostelmanagementsystem">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HostelManagementSystem">
+        <activity android:name="shivani_shruti.mycompany.hostelmanagementsystem.HostelAllotment"></activity>
+        <activity android:name="shivani_shruti.mycompany.hostelmanagementsystem.UpdateStudentData" />
+        <activity android:name="shivani_shruti.mycompany.hostelmanagementsystem.UpdateStaffData" />
+        <activity android:name="shivani_shruti.mycompany.hostelmanagementsystem.StaffRegister" />
+        <activity android:name="shivani_shruti.mycompany.hostelmanagementsystem.StaffLogin" />
+        <activity android:name="shivani_shruti.mycompany.hostelmanagementsystem.StudentRegister" />
+        <activity android:name="shivani_shruti.mycompany.hostelmanagementsystem.StudentLogin" />
+        <activity android:name="shivani_shruti.mycompany.hostelmanagementsystem.StaffPage" />
+        <activity android:name="shivani_shruti.mycompany.hostelmanagementsystem.StudentPage" />
+        <activity android:name="shivani_shruti.mycompany.hostelmanagementsystem.HomeActivity" />
+        <activity android:name="shivani_shruti.mycompany.hostelmanagementsystem.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

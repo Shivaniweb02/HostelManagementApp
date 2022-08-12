@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StaffPage">
+
+    <ImageView
+        android:id="@+id/staff_profile_image"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/staff_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Profile"
+        android:textAlignment="center"
+        android:textColor="#345A19"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/staff_profile_image" />
+
+    <Button
+        android:id="@+id/show_all_users"
+        android:layout_width="136dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/new_button"
+        android:fontFamily="@font/aclonica"
+        android:padding="8dp"
+        android:text="Show all Staff"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/update_my_info_button" />
+
+    <Button
+        android:id="@+id/update_my_info_button"
+        android:layout_width="137dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/new_button"
+        android:fontFamily="@font/aclonica"
+        android:padding="8dp"
+        android:text="Update Info"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/staff_name" />
+
+    <Button
+        android:id="@+id/delete_my_info_button"
+        android:layout_width="143dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/new_button"
+        android:fontFamily="@font/aclonica"
+        android:padding="8dp"
+        android:text="Delete My Profile"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/show_all_users"
+        app:layout_constraintHorizontal_bias="0.403"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/show_my_info_button" />
+
+    <Button
+        android:id="@+id/show_my_info_button"
+        android:layout_width="147dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/new_button"
+        android:fontFamily="@font/aclonica"
+        android:padding="8dp"
+        android:text="Show My Info"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/update_my_info_button"
+        app:layout_constraintHorizontal_bias="0.404"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/staff_name" />
+
+    <Button
+        android:id="@+id/stud"
+        android:layout_width="270dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="544dp"
+        android:layout_marginEnd="68dp"
+        android:background="@drawable/new_button"
+        android:fontFamily="@font/aclonica"
+        android:padding="8dp"
+        android:text="Show all Student "
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:textColor="#FAF9F9"
+        android:textColorLink="#FFFFFF"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.002"
+        app:rippleColor="#FBFBFB" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
